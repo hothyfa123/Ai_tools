@@ -125,7 +125,8 @@ h1 {
 }
 
 .tool p {
-    font-size: 0.875rem;
+    font-size: 1.25rem;
+    font-display: bold;
     color: #666;
     font-family: "Roboto", "Almarai", sans-serif;
     margin: 0 0 1rem;
@@ -223,6 +224,138 @@ footer a:hover {
 /* إضافة الميديا كويري للأنماط المتجاوبة */
 
 /* للأجهزة الصغيرة (الهواتف) */
+@media (max-width: 200px) {
+    body {
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+    #search-bar {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+
+        width: 150px;
+    }
+    .tool {
+        margin-bottom: 1rem;
+    }
+
+    .tool img {
+        height: 120px;
+    }
+
+    .tool h2 {
+        font-size: 1.125rem;
+    }
+
+    #tools-container {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+}
+@media (max-width: 300px) {
+    body {
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+    #search-bar {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+
+        width: 200px;
+    }
+    .tool {
+        margin-bottom: 1rem;
+    }
+
+    .tool img {
+        height: 120px;
+    }
+
+    .tool h2 {
+        font-size: 1.125rem;
+    }
+
+    #tools-container {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+}
+@media (max-width: 400px) {
+    body {
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+    #search-bar {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+
+        width: 300px;
+    }
+    .tool {
+        margin-bottom: 1rem;
+    }
+
+    .tool img {
+        height: 120px;
+    }
+
+    .tool h2 {
+        font-size: 1.125rem;
+    }
+
+    #tools-container {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+}
+@media (max-width: 450px) {
+    body {
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+    #search-bar {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+
+        width: 350px;
+    }
+    .tool {
+        margin-bottom: 1rem;
+    }
+
+    .tool img {
+        height: 120px;
+    }
+
+    .tool h2 {
+        font-size: 1.125rem;
+    }
+
+    #tools-container {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+}
 @media (max-width: 600px) {
     body {
         font-size: 14px;
@@ -231,7 +364,14 @@ footer a:hover {
     h1 {
         font-size: 1.5rem;
     }
+    #search-bar {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
 
+        width: 400px;
+    }
     #search-bar input {
         font-size: 0.9rem;
     }

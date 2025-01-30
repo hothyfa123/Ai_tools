@@ -1,4 +1,4 @@
-const toolsUrl = '../font/Ai-tools.json';
+const toolsUrl = 'font/Ai-tools.json';
 const toolsContainer = document.getElementById("tools-container");
 
 let tools = []; // قائمة الأدوات بعد جلبها من JSON
